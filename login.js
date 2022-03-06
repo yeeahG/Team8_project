@@ -27,8 +27,8 @@ function check() {
 function ordercheck() {
     console.log('order checked');
 
-    if (orderNo.id.value == "1234") {
-        if (orderEmail.pw.value == "1234") {
+    if (loginId.orderNo.value == "client") {
+        if (loginPw.orderEmail.value == "1234") {
             window.location.replace('index.html')
             //orderList.redirect('nonclientOrder.html');
         } else {
